@@ -1,0 +1,133 @@
+
+/* navbar */
+.navbar
+{
+
+    margin-bottom: 0px;
+    border-radius: unset;
+    height: 100%;
+    width: 17%;
+    position: fixed;
+}
+.bg-img ul , .bg-img li
+{
+    float: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.navbar-padding
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar:hover , .navbar li a :active , .navbar li:focus
+{
+    color: #fff;
+    background-color: #222;
+}
+li:hover
+{
+    background-color: #080808;
+}
+
+/**********/
+.header {
+    background-color: #ffffff;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.1);;
+}
+/************/
+.desh
+{
+    padding: 20px;
+    display: flex;
+}
+.sale {
+    background-color: #ffffff;
+    height: 300px;
+    width: 35%;
+    border: solid 2px #e8e8e8;
+
+}
+.task{
+    background-color: #ffffff;
+    height: 300px;
+    width: 65%;
+    border: solid 2px #e8e8e8;
+    float: left;
+    margin-left: 20px;
+}
+.desh-1
+{
+    padding: 0px 20px;
+    display: flex;
+}
+.behavior
+{
+    background-color: #ffffff;
+    height: 300px;
+    width: 50%;
+    border: solid 2px #e8e8e8;
+}
+
+.behavior-margin
+{
+    margin-left: 20px;
+}
+
+
+
+/* profile */
+.profile
+{
+    padding: 40px 20px;
+    display: flex;
+}
+
+.sale-heading
+{
+    background-color: #67b168;
+    height: 70px;
+    width: 20%;
+    align-content: center;
+    margin: 70px ;
+    position: relative;
+    margin-top: -10px;
+    box-shadow: 2px 2px 2px #d5d5d5;
+}
+.task-heading
+{
+    background-color: #67b168;
+    height: 100px;
+    width: 20%;
+    align-content: center;
+    margin: 100px ;
+    position: relative;
+    margin-top: -20px;
+    box-shadow: 2px 2px 2px #d5d5d5;
+}
+
+.profile-1
+{
+
+    padding: 20px 20px;
+    display: flex;
+}
+
+.behavior-heading
+{
+    background-color: #ac2925;
+    height: 70px;
+    width: 20%;
+    align-content: center;
+    margin: 70px ;
+    position: relative;
+    margin-top: -10px;
+    box-shadow: 2px 2px 2px #d5d5d5;
+}
+/*media query */
+@media screen and (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+}
